@@ -1,0 +1,23 @@
+gg习git命令行 
+使用: 
+git config --global user.name "username"	//初始用户名
+git config --global user.email "email"		//设置用户邮箱
+
+git config --list				//查看设置
+
+添加文件到本地仓库
+ 先创建或者修改文件
+ git add file_name 				//将工作区文件添加到暂存区
+ git commit  -m "描述"				//将暂存区文件添加到本地仓库
+
+从本地仓库删除文件
+ rm file_name 					//删除文件
+ git rm file_name				//从git中删除文件
+ git commit -m "描述"				//提交描述
+
+用git操作github远程仓库
+首先clone远程仓库代码，将远程仓库代码复制到本地
+ git clone 仓库地址				//克隆下载远程仓库
+ git add file_name
+ git commit
+ git push 					//通过push将本地仓库同步到远程
