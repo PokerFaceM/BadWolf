@@ -21,3 +21,6 @@ git config --list				//查看设置
  git add file_name
  git commit
  git push 					//通过push将本地仓库同步到远程
+
+练习书上的例子
+
